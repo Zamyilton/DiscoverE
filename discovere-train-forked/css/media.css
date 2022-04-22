@@ -1,0 +1,80 @@
+@media(max-width:768px){
+.banner{
+    width: 100%;
+    height:100vhvh;
+    background:linear-gradient(rgba(0, 0, 0, 0.356), rgba(0, 0, 0, 0.315)), url(https://media.cntraveler.com/photos/56344413ee1172612dd4fa49/master/w_1600%2Cc_limit/marble-caves-general-carrera-lake-chile-cr-alamy.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+*{
+    color:white;
+}
+
+
+
+.font{
+    font-family: discovery;
+    color:cyan;
+    animation-name: uchiha;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+}
+@keyframes uchiha {
+    20%{
+        color:orange;
+    }
+
+    30%{
+        color:greenyellow;
+    }
+
+    70%{
+        color:black;
+    }
+
+    75%{
+        color: white;
+    }
+
+    100%{
+        color:cyan;
+    }
+}
+@keyframes sasuke {
+    /* 50%{
+        background: url(https://media.cntraveler.com/photos/605966677ef97a43a1af2c95/master/w_2785,h_1825,c_limit/HalongBay-GettyImages-938718364.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+    } */
+
+    25%{
+        background:url(https://s3.r29static.com/bin/entry/9da/0,200,2000,2000/x,80/1982553/image.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+    }
+
+    50%{
+        background: url(https://media.cntraveler.com/photos/5644c10c96771ce632e3fdb0/master/w_1600%2Cc_limit/salar-de-uyuni-bolivia-cr-alamy.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+    }
+
+    80%{
+       background: url(https://lp-cms-production.imgix.net/2020-11/GettyRF_1085205362.jpg?auto=format&fit=crop&sharp=10&vib=20&ixlib=react-8.6.4&w=850);
+       background-repeat: no-repeat;
+       background-size: cover;
+       background-attachment: fixed;
+    }
+
+    100%{
+        background: url(https://media.cntraveler.com/photos/56344413ee1172612dd4fa49/master/w_1600%2Cc_limit/marble-caves-general-carrera-lake-chile-cr-alamy.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+    }
+}
+}

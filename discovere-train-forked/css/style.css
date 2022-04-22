@@ -1,0 +1,108 @@
+html{
+    scroll-behavior: smooth;
+}
+
+
+.banner{
+    width: 100%;
+    height: 100vh;
+    background: url(https://media.cntraveler.com/photos/56344407ee1172612dd4fa06/master/w_1600%2Cc_limit/trolltunga-hordaland-norway-cr-alamy.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    animation-name:sasuke;
+    animation-duration:15s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes sasuke {
+    /* 50%{
+        background: url(https://media.cntraveler.com/photos/605966677ef97a43a1af2c95/master/w_2785,h_1825,c_limit/HalongBay-GettyImages-938718364.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+    } */
+
+    25%{
+        background:url(https://media.cntraveler.com/photos/5634441b2ade353e4050d62e/master/w_1600%2Cc_limit/mendenhall-ice-caves-juneau-alaska-cr-gallery-stock.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+    }
+
+    50%{
+        background: url(https://wallpaperaccess.com/full/89381.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+    }
+
+    80%{
+       background: url(https://media.cntraveler.com/photos/56344414ee1172612dd4fa53/master/w_1600%2Cc_limit/vaadhoo-island-maldives-cr-alamy.jpg);
+       background-repeat: no-repeat;
+       background-size: cover;
+       background-attachment: fixed;
+    }
+
+    100%{
+        background: url(https://media.cntraveler.com/photos/56344407ee1172612dd4fa06/master/w_1600%2Cc_limit/trolltunga-hordaland-norway-cr-alamy.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+    }
+}
+
+.text{
+    color: white;
+    padding-top:20%;
+    padding-left: 5%;
+    font-size: large;
+}
+
+.font{
+    font-family: discovery;
+    color: rgba(0, 110, 255, 0.877);
+    animation-name: uchiha;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+@keyframes uchiha {
+    10%{
+        color:orange;
+    }
+
+    30%{
+        color:greenyellow;
+    }
+
+    70%{
+        color:darkgrey;
+    }
+
+    80%{
+        color: white;
+    }
+
+    90%{
+        color:rgba(0, 110, 255, 0.877);
+    }
+}
+
+.about{
+    width: 100%;
+    height: 100%;
+}
+.mat{
+    margin-top:5% !important;
+}
+
+::-webkit-scrollbar{
+    width: 5px;
+    background-color:skyblue;
+}
+::-webkit-scrollbar-thumb{
+    background:linear-gradient(transparent, black, skyblue, grey, purple) ;
+}
+::-webkit-scrollbar-thumb:hover{
+    background: linear-gradient(transparent, rgb(0, 0, 0), rgba(35, 90, 112, 0.493), rgba(224, 141, 141, 0.555), rgba(128, 0, 128, 0.452));
+}
